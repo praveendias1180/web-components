@@ -15,3 +15,9 @@ CustomElementRegistry
 .whenDefined()
 ```
 
+# First Custom Element
+
+![](first-element.png)
+
+See the source in 'popup-info' folder.
+
