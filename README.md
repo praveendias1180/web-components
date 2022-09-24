@@ -21,3 +21,16 @@ CustomElementRegistry
 
 See the source in 'popup-info' folder.
 
+# Libraries
+
+https://www.fast.design/docs/fast-element/getting-started/
+
+https://snuggsi.com/
+
+https://x-tag.github.io/
+
+https://slimjs.com/#/welcome
+
+https://lit.dev/
+
+https://www.htmlelements.com/
