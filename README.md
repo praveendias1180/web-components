@@ -34,3 +34,9 @@ https://slimjs.com/#/welcome
 https://lit.dev/
 
 https://www.htmlelements.com/
+
+# Shadow DOM
+
+Shadow DOM allows hidden DOM trees to be attached to elements in the regular DOM tree — this shadow DOM tree starts with a shadow root, underneath which you can attach any element, in the same way as the normal DOM.
+
+![](shadowdom.svg)
