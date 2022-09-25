@@ -83,3 +83,19 @@ Shadow DOM: The DOM a component author writes
     <slot>Button</slot>
     </span>
 ```
+
+Flattened DOM Tree: Final Product
+```
+<better-button>
+    #shadow-root
+    <style>...</style>
+    <slot name="icon">
+        <img src="gear.svg" slot="icon">
+    </slot>
+    <span id="wrapper">
+        <slot>
+        <span>Settings</span>
+        </slot>
+    </span>
+</better-button>
+```
