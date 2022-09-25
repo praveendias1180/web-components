@@ -105,6 +105,32 @@ Flattened DOM Tree: Final Product
 ## What happens when you add a child to an element with a shadow DOM subtree
 
 ![](unrendered-elements.png)
+
+## I see the light!
+
+```
+<body>
+
+    <div id="element"></div>
+
+    <script>
+        // WARNING: Pseudocode, not a real API.
+        var element = document.getElementById('element');
+
+        // Create a shadow subtree.
+        let shadowRoot = element.attachShadow({ mode: 'closed' });
+        shadowRoot.innerHTML = '<h1>Think of the Children</h1><div class="children">children-go-here</div>';
+
+        // Now add some children.
+        var test = element.appendChild(document.createElement('p'));
+        test.textContent = 'I see the light!';
+    </script>
+    
+</body>
+```
+
+![](i-see.png)
+
 # Conclusion
 
 For the first time ever, we have an API primitive that does proper CSS scoping, DOM scoping, and has true composition. Combined with other web component APIs like custom elements, shadow DOM provides a way to author truly encapsulated components without hacks or using older baggage like iframes.

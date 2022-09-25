@@ -1,0 +1,18 @@
+<body>
+
+    <div id="element"></div>
+
+    <script>
+        // WARNING: Pseudocode, not a real API.
+        var element = document.getElementById('element');
+
+        // Create a shadow subtree.
+        let shadowRoot = element.attachShadow({ mode: 'closed' });
+        shadowRoot.innerHTML = '<h1>Think of the Children</h1><div class="children">children-go-here</div>';
+
+        // Now add some children.
+        var test = element.appendChild(document.createElement('p'));
+        test.textContent = 'I see the light!';
+    </script>
+    
+</body>
