@@ -51,3 +51,15 @@ https://web.dev/shadowdom-v1/
 ![](fancy-tabs.png)
 
 See the source in 'fancy-tabs' folder.
+
+## No Shadows
+
+Some elements cannot attach a shadow to themselves.
+
+https://dom.spec.whatwg.org/#dom-element-attachshadow
+
+
+# Read More
+
+https://glazkov.com/2011/01/14/what-the-heck-is-shadow-dom/
+
