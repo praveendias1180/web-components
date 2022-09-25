@@ -99,3 +99,9 @@ Flattened DOM Tree: Final Product
     </span>
 </better-button>
 ```
+
+# Conclusion
+
+For the first time ever, we have an API primitive that does proper CSS scoping, DOM scoping, and has true composition. Combined with other web component APIs like custom elements, shadow DOM provides a way to author truly encapsulated components without hacks or using older baggage like iframes.
+
+Don't get me wrong. Shadow DOM is certainly a complex beast! But it's a beast worth learning. Spend some time with it.
