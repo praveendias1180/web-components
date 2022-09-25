@@ -100,6 +100,11 @@ Flattened DOM Tree: Final Product
 </better-button>
 ```
 
+# Shadows with Holes, How’s that for a Mind-bender?
+
+## What happens when you add a child to an element with a shadow DOM subtree
+
+![](unrendered-elements.png)
 # Conclusion
 
 For the first time ever, we have an API primitive that does proper CSS scoping, DOM scoping, and has true composition. Combined with other web component APIs like custom elements, shadow DOM provides a way to author truly encapsulated components without hacks or using older baggage like iframes.
