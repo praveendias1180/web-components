@@ -63,3 +63,23 @@ https://dom.spec.whatwg.org/#dom-element-attachshadow
 
 https://glazkov.com/2011/01/14/what-the-heck-is-shadow-dom/
 
+# Light DOM
+
+Light DOM: The markup a user of your component writes. 
+```
+<better-button>
+    <!-- the image and span are better-button's light DOM -->
+    <img src="gear.svg" slot="icon">
+    <span>Settings</span>
+</better-button>
+```
+
+Shadow DOM: The DOM a component author writes
+```
+#shadow-root
+    <style>...</style>
+    <slot name="icon"></slot>
+    <span id="wrapper">
+    <slot>Button</slot>
+    </span>
+```
