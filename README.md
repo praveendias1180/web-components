@@ -40,3 +40,10 @@ https://www.htmlelements.com/
 Shadow DOM allows hidden DOM trees to be attached to elements in the regular DOM tree — this shadow DOM tree starts with a shadow root, underneath which you can attach any element, in the same way as the normal DOM.
 
 ![](shadowdom.svg)
+
+
+# Self Contained
+
+## Authoring self-contained components in vanilla JavaScript
+
+https://web.dev/shadowdom-v1/
