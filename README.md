@@ -47,3 +47,7 @@ Shadow DOM allows hidden DOM trees to be attached to elements in the regular DOM
 ## Authoring self-contained components in vanilla JavaScript
 
 https://web.dev/shadowdom-v1/
+
+![](fancy-tabs.png)
+
+See the source in 'fancy-tabs' folder.
